@@ -12,4 +12,14 @@
 ### 📌 Backtracking
 - 🔄 Permutasi angka (rekursif)
 
-
+## 📱 2. Dasar Flutter
+###  1. Widget Dasar
+- 🧱 **MaterialApp** – Root utama aplikasi Flutter
+- 🏗️ **Scaffold** – Struktur dasar halaman (kerangka layar)
+- 🧭 **AppBar** – Header bar bagian atas layar
+- 📦 **Container** – Widget serbaguna (layout, styling, padding)
+- 🔤 **Text** – Menampilkan tulisan
+- 🐦 **FlutterLogo** – Logo Flutter default
+- 🔘 **ElevatedButton** – Tombol dengan elevasi
+- ⭐ **Icon** – Menampilkan ikon dari Material Icons
+- 🖼️ **Image** – Menampilkan gambar dari asset / internet
