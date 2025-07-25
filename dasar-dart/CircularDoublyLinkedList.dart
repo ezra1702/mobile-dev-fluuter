@@ -15,7 +15,7 @@ class CircularDoublyLinkedList {
     
     if (head == null) {
       head = newNode;
-      head!.next = head; // Menunjuk ke diri sendiri
+      head!.next = head; // Menunjuk ke diri sendirigit commit -m "first commit"
       head!.prev = head; // Menunjuk ke diri sendiri
       return;
     }
