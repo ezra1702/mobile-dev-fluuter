@@ -24,7 +24,6 @@
 - ⭐ **Icon** – Menampilkan ikon dari Material Icons
 - 🖼️ **Image** – Menampilkan gambar dari asset / internet
 ### 📌 Visible & Invisible 
-
 - 🎨 **Visible Widget**
   - 📝 Text – Menampilkan tulisan
   - ⭐ Icon – Menampilkan ikon dari Material Icons
@@ -34,13 +33,9 @@
   - 📦 Container (dengan child/warna) – Untuk styling, layout
   - 💳 Card – Widget kartu dengan shadow
   - 📋 ListTile – Elemen list dengan leading, title, subtitle, trailing
-
----
-
 - 🧱 **Invisible Widget (Layouting)**
   - 🎯 Center
     - Menempatkan widget anak di tengah (horizontal & vertikal)
-
   - 📏 Column
     - `mainAxisAlignment` :
         - Macam-macamnya: 
@@ -56,7 +51,6 @@
             - ⬛ `center` : rata tengah horizontal
             - ▶️ `end` : rata kanan
             - 📏 `stretch` : isi penuh lebar parent
-
   - 📐 Row
     - `mainAxisAlignment` :
         - Macam-macamnya:
@@ -72,7 +66,6 @@
             - ⬛ `center` : sejajar di tengah secara vertikal
             - 🔽 `end` : sejajar dari bawah
             - 📏 `stretch` : isi penuh tinggi parent
-
   - 🧩 Stack
     - `alignment`
         - Macam-macamnya:
@@ -85,12 +78,10 @@
             - ↙️ `bottomLeft`
             - 🔽 `bottomCenter`
             - ↘️ `bottomRight`
-
   - 📜 SingleChildScrollView
     - Scrollable satu arah (vertikal/horizontal)
     - Cocok untuk layout panjang (agar tidak overflow)
     - Digunakan untuk satu widget child
-
   - 📋 ListView
     - `scrollDirection`
         - Macam-macamnya:
@@ -99,7 +90,6 @@
     - Menampilkan daftar scrollable (list)
     - Bisa statis (`ListView`) atau dinamis (`ListView.builder`)
     - Mendukung infinite scroll, lazy loading
-
   - 🧱 GridView
     - `gridDelegate`
         - Macam-macamnya:
